@@ -46,7 +46,7 @@ PREPROCESSING_MODES: Dict[str, str] = {
     "mobilenet_v2": "MobileNetV2 Normalized (-1.0 to 1.0)",
     "raw_0_255": "Raw Pixels (0 to 255) [Internal Rescaling Layer]",
 }
-DEFAULT_PREPROCESSING_MODE = "scaled_0_1"
+DEFAULT_PREPROCESSING_MODE = "raw_0_255"
 
 # Upload Constraints
 ALLOWED_IMAGE_TYPES: List[str] = ["jpg", "jpeg", "png"]
